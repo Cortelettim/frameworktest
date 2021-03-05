@@ -1,0 +1,85 @@
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1d1e20;
+}
+.headerDiv{
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(47, 2, 90);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.headerDiv h1 {
+  font-weight: normal;
+  font-family: fantasy;
+  font-size: 35px;
+  display: flex;
+  margin: 2vh 0;
+}
+
+.menu {
+  margin-top: 7%;
+  width: 100vw;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.menu a {
+  color: rgb(255, 255, 255);
+  font-style: none;
+}
+
+.menu a:hover {
+  color: rgb(255, 255, 255);
+  font-style: none;
+ 
+}
+
+.menuLink {
+  background-color: rgb(93, 12, 170);
+  margin: 1vw;
+  transition: 0.3s;
+  padding: 25px 25px 15px 25px;
+  border-radius: 4px;
+  font-size: larger;
+  width: 30%;
+  height: 45%;
+  border: 3px solid rgb(93, 12, 170);
+  outline: none !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+.menuLink:hover {
+  box-shadow: 5px 10px 10px 1px rgb(105, 6, 199);
+  transform: scale(1.05);
+}
+
+.menuLink h2 {
+  font-family: fantasy;
+  font-weight: normal;
+  display: flex;
+ 
+}
+

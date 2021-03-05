@@ -1,0 +1,28 @@
+.containerHeader  {
+  display: flex;
+  flex-direction: unset;
+  justify-content: center;
+  flex: 1;
+  align-items: center ;
+
+}
+
+.headerLink {
+  color:white;
+  margin: 1vw;
+  transition: 0.3s;
+  width: 13%;
+  height: 30px;  
+  background-color:rgb(93, 12, 170);
+  border: none;
+  text-align:center ;
+  justify-content: center ; 
+  text-decoration: none ;
+  display: inline-block;
+}
+
+.headerLink:hover {
+  box-shadow: 5px 10px 10px 1px rgb(128, 4, 243);
+  transform: scale(1.05);
+}
+
